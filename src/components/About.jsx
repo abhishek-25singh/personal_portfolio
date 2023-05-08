@@ -1,10 +1,5 @@
 import React from "react";
 
-// import { GoPrimitiveDot } from 'react-icons/go';
-import { FaCircle, FaDotCircle } from "react-icons/fa";
-// import { FaBeer } from 'react-icons/fa';
-// import { FaBeer } from 'react-icons/fa';
-
 const About = () => {
  
   const experience = [

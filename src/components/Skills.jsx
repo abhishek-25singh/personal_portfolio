@@ -1,20 +1,19 @@
 import React from "react";
 
 
-import { GrMysql, GrReactjs } from 'react-icons/gr';  
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiRedux, SiGithub, SiLinux, SiPython } from 'react-icons/si';  
-// import { GrMysql, GrReactjs } from 'react-icons/gr';  
+import { GrMysql } from 'react-icons/gr';  
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiRedux, SiGithub, SiLinux, SiPython, SiTailwindcss, SiNextdotjs } from 'react-icons/si';   
 
 const Skills = () => {
   const skills = [
     {
       logo: <SiHtml5 />,
-      level: "HTML5",
+      level: "HTML 5",
       count: 91,
     },
     {
       logo: <SiCss3 />,
-      level: "CSS3",
+      level: "CSS 3",
       count: 82,
     },
     {
@@ -24,7 +23,7 @@ const Skills = () => {
     },
     {
       logo: <SiReact />,
-      level: "ReactJS",
+      level: "React JS",
       count: 91,
     },
     {
@@ -50,6 +49,16 @@ const Skills = () => {
     {
       logo: <GrMysql />,
       level: "MySQL",
+      count: 82,
+    },
+    {
+      logo: <SiTailwindcss />,
+      level: "Tailwind CSS",
+      count: 82,
+    },
+    {
+      logo: <SiNextdotjs />,
+      level: "Next JS",
       count: 82,
     },
   ];

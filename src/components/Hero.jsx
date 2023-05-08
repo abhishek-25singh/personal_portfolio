@@ -1,9 +1,9 @@
 import React from "react";
 import hero from "../assets/images/hero.png";
 
-
-import { SiLinkedin, SiGithub, SiGmail, SiWhatsapp } from 'react-icons/si';
-import { RiUserLocationFill, RiUserLocationLine } from 'react-icons/ri';
+import { SiLinkedin, SiGithub, SiWhatsapp } from 'react-icons/si';
+import { RiUserLocationFill } from 'react-icons/ri';
+import { MdCall } from 'react-icons/md';  
 
 import Typed from 'react-typed';
 
@@ -15,7 +15,7 @@ const Hero = () => {
       className="min-h-screen flex py-10 md:flex-row flex-col items-center"
     >
       <div className="flex-1 flex items-center justify-center h-full">
-        <img src={hero} alt="" className="md:w-11/12 h-full object-cover hover:scale-105 duration-300" />   {/*  */}
+        <img src={hero} alt="" className="md:w-11/12 h-full object-cover" />
       </div>
       <div className="flex-1">
         <div className="md:text-left text-center">
@@ -43,9 +43,7 @@ const Hero = () => {
               </div>
             ))}
           </div>
-          <a href="https://drive.google.com/file/d/18y-Ee9NCSu-Iel1mKYZdgBJnr1mSjWOR/view?usp=sharing">
-          <button className="btn-primary mt-8 ml-3 hover:bg-yellow-700"> Download CV </button>
-          </a>
+          <button className="btn-primary mt-8 ml-3 hover:bg-yellow-700"><a href="https://drive.google.com/file/d/18y-Ee9NCSu-Iel1mKYZdgBJnr1mSjWOR/view?usp=sharing" target="_blank">Download CV</a></button>
         </div>
       </div>
     </section>
@@ -58,6 +56,6 @@ export const social_media = [
   { name: <SiGithub />, link: "https://github.com/abhishek-25singh" },
   { name: <SiLinkedin />, link: "https://www.linkedin.com/in/abhishek-25singh" },
   { name: <RiUserLocationFill />, link: "https://goo.gl/maps/siaJeJcdPKVFnSX76" },
-  { name: <SiGmail />, link: "mailto:abhisheksinghparihar1998@gmail.com" },
+  { name: <MdCall />, link: "tel:+918120797371" },
   { name: <SiWhatsapp />, link: "https://wa.me/+918120797371" },
 ];
